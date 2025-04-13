@@ -8,7 +8,6 @@
 
 - 🔧 3+ years of experience in **backend development** and **DevOps**
 - 📡 Built real-world systems handling **millions of requests** with technologies like **Go, Python, MongoDB, Redis, Kafka**, and more
-- 📚 Researching sustainable **IoT incentive mechanisms** using **blockchain** (See: [IoTBlockSim](https://github.com/MohammadmahdiAhmadi/IoTBlockSim))
 
 ---
 
@@ -28,13 +27,14 @@
 - **Frameworks**: Django REST Framework (DRF), Celery
 - **DevOps**: Docker, Kubernetes, Jenkins, Ansible, Nginx, Kong
 - **Monitoring**: Prometheus, Grafana
-- **Messaging**: Redis, RabbitMQ, Kafka
+- **Messaging**: Redis, RabbitMQ
 - **Practices**: Git, Scrum, Testing, LaTeX
 
 ---
 
 ### 📫 Let's Connect
 
+- 📄 [View My Resume](./document/resume/AhmadiCV_General.pdf)
 - 🌐 [LinkedIn](https://linkedin.com/in/mohammadmahdi-ahmadi)  
 - 🧑‍💻 [GitHub](https://github.com/MohammadmahdiAhmadi)  
 - 📬 Email: mm.ahmadi0101@gmail.com  

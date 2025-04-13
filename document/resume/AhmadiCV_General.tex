@@ -1,0 +1,387 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{ulem}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\hypersetup{
+    colorlinks = true,   % Enable colored links
+    linkcolor = blue,    % Set link color to blue
+    urlcolor = blue,     % Set URL color to blue
+    citecolor = blue,    % Set citation color to blue (if needed)
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Mahdi Ahmadi} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +98 921-417-7450 ~
+    \faEnvelope\href{mailto:mm.ahmadi0101@gmail.com}{\raisebox{-0.2\height}\  \color{blue}{mm.ahmadi0101@gmail.com}} ~ \\ \vspace{1pt}
+    \faLinkedin\href{https://linkedin.com/in/mohammadmahdi-ahmadi/}{\raisebox{-0.2\height}\ \color{blue}{linkedin.com/mohammadmahdi-ahmadi}}  ~
+    \faGithub\href{https://github.com/MohammadmahdiAhmadi}{\raisebox{-0.2\height}\ \color{blue}{github.com/MohammadmahdiAhmadi}}
+    \vspace{-8pt}
+\end{center}
+
+%------SUMMARY-------
+\vspace{-11pt}
+\section{SUMMARY}
+\resumeSubHeadingListStart
+  \resumeItem{Software Engineer with 3+ years of experience in backend development and DevOps, specializing in scalable systems and blockchain technology. Proven ability to deliver high-performance solutions for complex projects.}
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\vspace{-11pt}
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://english.iut.ac.ir/}{\color{blue}{Isfahan University of Technology}}}{2019 -- 2024}
+      {Bachelor of Science in Computer Engineering}{Isfahan, Iran}
+    \resumeSubheading
+      {Shiroodi \href{https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents}{\color{blue}{(NODET)}}}{2013 -- 2019}
+      {Diploma in Mathematics}{Alborz, Iran}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\vspace{-9pt}
+\section{WORK EXPERIENCE}
+    \resumeSubHeadingListStart
+    \vspace{0pt}
+    \resumeSubheading
+    {Teaching Assistant}{2024 -- 2025}
+    {}{}
+    \vspace{-18pt}
+    \resumeItemListStart
+      \resumeItem{Teaching assistant in SQL Server Database Laboratory at \href{https://english.iut.ac.ir/}{\color{blue}IUT} under supervision of \href{https://basiri.iut.ac.ir/}{\color{blue}Prof. Basiri}.}
+    \resumeItemListEnd
+    \vspace{-9pt}
+    \resumeItemListStart
+      \resumeItem{Teaching assistant in Software Engineering Laboratory at \href{https://english.iut.ac.ir/}{\color{blue}IUT} under supervision of \href{https://ece.iut.ac.ir/fa/people/2752}{\color{blue}Prof. Baghoolizadeh}.}
+    \resumeItemListEnd
+
+  \vspace{-3pt}
+  \resumeSubheading
+    {Software Engineer, \href{https://jafamhis.com}{jafamhis.com}}{2022 -- 2023}
+    {}{}
+    \vspace{-18pt}
+    \resumeItemListStart
+      \resumeItem{Engineered application logic and APIs with Go and MongoDB, enhancing system reliability for over 300,000 users.}
+      \vspace{0pt}
+      \resumeItem{Implemented and managed a high-performance network of 5 nodes, achieving seamless scalability.}
+      \vspace{0pt}
+      \resumeItem{Provided technical support and negotiated contracts, boosting B2B customer retention with clients including BMI, Homa Airlines, and Tejaratno Insurance.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Backend Developer, \href{https://valmart.net}{valmart.net}}{2021 -- 2022}
+    {}{}
+    \vspace{-18pt}
+    \resumeItemListStart
+      \resumeItem{Created and optimized APIs for complex algorithms using Python, Django REST Framework (DRF), PostgreSQL, Redis, and Kafka.}
+      \vspace{0pt}
+      \resumeItem{Enhanced data structures to support up to 10,000 transactions per second.}
+      \vspace{0pt}
+      \resumeItem{Developed core components of trading systems, including Trade Matching Engine and user authorization.}
+    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+    %-----------TECHNICAL SKILLS-----------
+
+\vspace{-11pt}
+\section{TECHNICAL SKILLS}
+\vspace{0pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Frameworks:} 
+     Go, Python, Django REST framework (DRF) \\
+    \vspace{1mm}
+     \textbf{Cloud \& DevOps:} 
+     Kubernetes, Docker, Jenkins, Ansible, Nginx, Linux, Prometheus, Grafana, Kong \\
+    \vspace{1mm}
+     \textbf{Data Management:} 
+     SQL, Redis, RabbitMQ, Celery \\
+    \vspace{1mm}
+     \textbf{Tools \& Practices:} 
+     Git, Figma, Scrum, Testing, LaTeX \\
+    }}
+ \end{itemize}
+
+\vspace{-11pt}
+
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{RESEARCH EXPERIENCE}
+	\vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+	{\href{https://github.com/MohammadmahdiAhmadi/IoTBlockSim}{\color{blue}{\textbf{IoTBlockSim}}}} {2024}
+	\resumeItemListStart
+	\resumeItem{Developed research simulation platform (Python) to 	test blockchain-based incentive mechanisms for sustainable IoT 	networks under \href{https://karimiafshar.iut.ac.ir/}{\color{blue}Prof. Karimiafshar}'s supervision}
+	\resumeItemListEnd
+	\vspace{-15pt}
+
+    \resumeProjectHeading
+      {\href{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=\&arnumber=7163223}{\color{blue}{\textbf{Decentralizing Privacy: Using Blockchain to Protect Personal Data}}}}{Winter 2024}
+      \resumeItemListStart
+        \resumeItem{Led a research project on blockchain-based privacy solutions under the guidance of \href{https://scholar.google.com/citations?user=33d716cAAAAJ&hl=en}{\color{blue}Prof. Manshaei}, focusing on decentralized data protection, as discussed in\href{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7163223}{\raisebox{-0.2\height}\ \color{blue}this} IEEE paper.}
+      \resumeItemListEnd
+	\vspace{-15pt}
+
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/LinuxSecurity-Review/blob/main/2023_A_Review_of_Linux_Security_Architecture.pdf}{\color{blue}\textbf{Linux Security Architecture}}}{Winter 2023}
+      \resumeItemListStart
+        \resumeItem{Authored a review paper on Linux Security Architecture, covering user management, file permissions, and kernel security, as part of the Security Basic course.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%------CERTIFICATES AND HONORS-------
+\vspace{-8pt}
+\section{CERTIFICATES AND HONORS}
+\vspace{2pt}
+  \begin{itemize}
+    \item \textbf{Ranked 502$^{th}$ (Top 1\%)} in Iranian Nationwide University Entrance Exam for Bachelor Studies\href{https://en.wikipedia.org/wiki/Iranian_University_Entrance_Exam}{\raisebox{-0.2\height}\ \color{blue}(Konkour)} amongst 164’278 students, 2019
+  \end{itemize}
+
+\newpage
+%-----------PROJECTS-----------
+    \vspace{-0pt}
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/SimpleBlockchain/}{\color{blue}\textbf{Blockchain Core}} $|$ \emph{Python}}{Summer 2024}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Constructed a Python-based blockchain with features like transaction signing, block rewards, UTXO, wallets, and consensus mechanisms similar to Bitcoin.}
+      \resumeItemListEnd
+	
+	\vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/MicroserviceDemo/}{\color{blue}\textbf{MicroServices Demonstration}} $|$ \emph{Python, Go}}{Winter 2024}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Built a scalable microservices system using Docker, Kong, and gRPC, with RabbitMQ for async communication and Prometheus/Grafana for monitoring.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/DevopsDemo/}{\color{blue}\textbf{DevOps Demonstration}} $|$ \emph{Python}}{Summer 2023}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Applied DevOps practices using Django, Docker, Nginx, Ansible, Jenkins CI/CD, and Kubernetes.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{}{\textbf{Health Centers Management}} $|$ \emph{Go}}{Spring and Summer 2022}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Automated medical facility operations by calculating insurance and patient shares using Go, MongoDB, Redis, and other advanced technologies.}
+      \resumeItemListEnd
+	
+      \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/NetworkSecurity-Lab}{\color{blue}\textbf{NetworkSecurity-Lab}} $|$ \emph{Python}}{Fall 2024}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Executed 8 hands-on security labs covering TCP hijacking (Mitnick Attack), ARP/ICMP spoofing, SYN/RST attacks, command injection, XSS, SQLi, and clickjacking—using tools like Wireshark and Scapy.}
+      \resumeItemListEnd
+      
+      \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/Microcontroller-Lab}{\color{blue}\textbf{Microcontroller-Lab}} $|$ \emph{C}}{Spring 2024}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Completed 8 lab assignments on ATmega32, covering GPIO, Timers/Interrupts, ADC, UART, LCD/Keypad interfacing, and motor control.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/AVR-OS}{\color{blue}\textbf{AVR OS}} $|$ \emph{C}}{Fall 2023}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Enhanced an AVR microcontroller OS by optimizing task prioritization and resolving critical interrupt handling issues.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/SQL-Lab}{\color{blue}\textbf{SQL-Lab}} $|$ \emph{SQL}}{Fall 2023}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Completed 8 lab assignments covering a broad range of MS-SQL concepts.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/SemiDEX}{\color{blue}\textbf{SemiDEX (Decentralized Exchange)}} $|$ \emph{Python}}{Winter 2021}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Built a semi decentralized exchange platform with automated market-making algorithm (AMM) and liquidity pools, similar to Uniswap.}
+      \resumeItemListEnd
+	
+	\vspace{-11pt}
+    \resumeProjectHeading
+      {\href{}{\textbf{Trade Matching Engine}} $|$ \emph{Python}}{Summer 2021}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Built a high-performance trade matching engine for cryptocurrency exchanges, handling up to 10,000 trades per second.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{}{\textbf{B-Plus Tree}} $|$ \emph{Python, Go}}{Spring 2021}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Implemented a high-performance, cache-friendly B-Plus tree structure.}
+      \resumeItemListEnd
+      
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{}{\textbf{Market Maker Bot}} $|$ \emph{Python}}{Fall 2021}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Designed a bot to enhance market liquidity by placing orders and synchronizing currency prices with global benchmarks.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{}{\textbf{Ticket Management System}} $|$ \emph{Python}}{Winter 2021}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Created a ticket management system using Django REST Framework (DRF) for efficient ticket handling and communication with administrators.}
+      \resumeItemListEnd
+    
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/IoT-Project}{\color{blue}\textbf{IoT-Course}} $|$ \emph{Arduino}}{Spring 2024}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Integrated ESP8266 with DHT11 and YL-69 sensors to transmit environmental data to a Node-RED dashboard for real-time monitoring and control.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/CiscoNet-Lab}{\color{blue}\textbf{Network-Lab}} $|$ \emph{Cisco}}{Spring 2023}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Simulated interconnected networks in Cisco Packet Tracer using OSPF, EIGRP, and RIP protocols across global regions.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/LinuxOS-Lab}{\color{blue}\textbf{OperatingSystem-Lab}} $|$ \emph{C}}{Fall 2022}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Completed 9 lab assignments on Operating System concepts including kernel modules, pthreads, IPC, and system calls.}
+      \resumeItemListEnd
+
+    \vspace{-11pt}
+    \resumeProjectHeading
+      {\href{https://github.com/MohammadmahdiAhmadi/DS-Project}{\color{blue}\textbf{DataStructure-Course}} $|$ \emph{C++}}{Fall 2021}
+      \resumeItemListStart
+        \vspace{1mm}
+        \resumeItem{Developed a zero-player strategic console game using data structures such as Fibonacci Heap, AVL Tree, and BST as part of a Data Structures course project.}
+      \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+    
+\end{document}

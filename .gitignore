@@ -1,0 +1,53 @@
+# LaTeX intermediate and output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Backup files
+*~
+*.bak
+*.sav
+*.backup
+
+# Editors
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Latexmk and arara build files
+latexmkrc
+*.run.xml
+
+# TeXstudio & TeXmaker
+*.synctex(busy)
+*.xdy
+*.auxlock
+
+# Overleaf-style hidden folders
+.auto/
