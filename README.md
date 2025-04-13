@@ -1,16 +1,45 @@
-## Hi there 👋
+# 👋 Hi, I'm Mohammad Mahdi Ahmadi
 
-<!--
-**MohammadmahdiAhmadi/MohammadmahdiAhmadi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Software Engineer with a B.Sc. in Computer Engineering from Isfahan University of Technology and 3+ years of experience in backend development and DevOps, specializing in scalable systems and blockchain technology. Proven ability to deliver high-performance solutions for complex projects.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 👨‍💻 About Me
+
+- 🔧 3+ years of experience in **backend development** and **DevOps**
+- 📡 Built real-world systems handling **millions of requests** with technologies like **Go, Python, MongoDB, Redis, Kafka**, and more
+- 📚 Researching sustainable **IoT incentive mechanisms** using **blockchain** (See: [IoTBlockSim](https://github.com/MohammadmahdiAhmadi/IoTBlockSim))
+
+---
+
+### 💼 Work & Teaching Experience
+
+- 💻 **Software Engineer** at [Jafam](https://jafamhis.com) | Designed scalable backend systems for 300K+ users
+- 🔄 **Backend Developer** at [Valmart](https://valmart.net) | Built high-performance trading APIs and trade matching engines
+- 🧑‍🏫 **Teaching Assistant** at IUT for:
+  - SQL Server Database Lab (Prof. Basiri)
+  - Software Engineering Lab (Prof. Baghoolizadeh)
+
+---
+
+### 🛠️ Technologies & Tools
+
+- **Languages**: Go, Python, SQL
+- **Frameworks**: Django REST Framework (DRF), Celery
+- **DevOps**: Docker, Kubernetes, Jenkins, Ansible, Nginx, Kong
+- **Monitoring**: Prometheus, Grafana
+- **Messaging**: Redis, RabbitMQ, Kafka
+- **Practices**: Git, Scrum, Testing, LaTeX
+
+---
+
+### 📫 Let's Connect
+
+- 🌐 [LinkedIn](https://linkedin.com/in/mohammadmahdi-ahmadi)  
+- 🧑‍💻 [GitHub](https://github.com/MohammadmahdiAhmadi)  
+- 📬 Email: mm.ahmadi0101@gmail.com  
+
+---
+
+_“Code is like humor. When you have to explain it, it’s bad.” – Cory House_
+
