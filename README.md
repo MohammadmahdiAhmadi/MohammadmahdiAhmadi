@@ -1,45 +1,38 @@
 # 👋 Hi, I'm Mohammad Mahdi Ahmadi
 
-🎓 Software Engineer with a B.Sc. in Computer Engineering from Isfahan University of Technology and 3+ years of experience in backend development and DevOps, specializing in scalable systems and blockchain technology. Proven ability to deliver high-performance solutions for complex projects.
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
+
+**Go Backend Engineer** with 4+ years building and optimizing high-throughput fintech backend systems. Currently working on payment infrastructure processing **20M+ financial transactions daily**.
 
 ---
 
-### 👨‍💻 About Me
+### 💼 Experience
 
-- 🔧 3+ years of experience in **backend development** and **DevOps**
-- 📡 Built real-world systems handling **millions of requests** with technologies like **Go, Python, MongoDB, Redis, Kafka**, and more
+**Go Backend Engineer — [Pasargad Electronic Payment](https://pep.co.ir) (2025–Present)**
 
----
+- Scaled payment switch throughput **3×** (700 → 2,200+ TPS) without additional hardware.
+- Redesigned settlement processing architecture, improving throughput **10×**.
+- Reduced live TCP connections **99.5%** (370K → 2K) through gRPC connection pooling.
+- Optimized production systems across Go, SQL Server, Redis, RabbitMQ, Kubernetes, and Linux networking.
 
-### 💼 Work & Teaching Experience
-
-- 💻 **Software Engineer** at [Jafam](https://jafamhis.com) | Designed scalable backend systems for 300K+ users
-- 🔄 **Backend Developer** at [Valmart](https://valmart.net) | Built high-performance trading APIs and trade matching engines
-- 🧑‍🏫 **Teaching Assistant** at IUT for:
-  - SQL Server Database Lab (Prof. Basiri)
-  - Software Engineering Lab (Prof. Baghoolizadeh)
+**Previous:** Idea System Processing • Valmart • Isfahan University of Technology
 
 ---
 
-### 🛠️ Technologies & Tools
+### 🚀 Current Interests
 
-- **Languages**: Go, Python, SQL
-- **Frameworks**: Django REST Framework (DRF), Celery
-- **DevOps**: Docker, Kubernetes, Jenkins, Ansible, Nginx, Kong
-- **Monitoring**: Prometheus, Grafana
-- **Messaging**: Redis, RabbitMQ
-- **Practices**: Git, Scrum, Testing, LaTeX
+Distributed Systems · Go Performance · Linux Networking · Database Internals · Kubernetes · High-Performance Backend Architecture · Open Source
+
+---
+
+### 🎓 Education
+
+**B.Sc. Computer Engineering** — Isfahan University of Technology *(2019–2024)*
 
 ---
 
 ### 📫 Let's Connect
 
-- 📄 [View My Resume](./document/resume/AhmadiCV_General.pdf)
-- 🌐 [LinkedIn](https://linkedin.com/in/mohammadmahdi-ahmadi)  
-- 🧑‍💻 [GitHub](https://github.com/MohammadmahdiAhmadi)  
-- 📬 Email: mm.ahmadi0101@gmail.com  
-
----
-
-_“Code is like humor. When you have to explain it, it’s bad.” – Cory House_
-
+- 🌐 [LinkedIn](https://linkedin.com/in/mohammadmahdi-ahmadi)
+- 💻 [GitHub](https://github.com/MohammadmahdiAhmadi)
+- 📬 mm.ahmadi0101@gmail.com
